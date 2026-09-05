@@ -17,7 +17,7 @@ Frontier Knight Labs builds autonomous cybersecurity agents that **run real tool
 | 🔴 | **[Crimson Knight](https://github.com/frontierknight/crimson)** | Red team · offense | 9-phase MITRE ATT&CK kill chain · 7 offensive tools · 447 attack workflows. Runs Nmap, sqlmap, BloodHound, Impacket, Sliver… |
 | 🔵 | **[Azure Knight](https://github.com/frontierknight/azure)** | Blue team · defense | 8-phase IR + threat-hunting chain · 8 defensive tools · 370 defense workflows. Runs Volatility, YARA, Sigma, Zeek, Splunk… |
 | 🧠 | *Learning* | RL post-training | Reinforcement-learning post-trained security models — *in progress.* |
-| 🤖 | **Knightfall** *(benchmark)* | ROS 2 security CTF range | A ROS 2 robotics-security CTF range for **both humans and AI agents** — reproducible, auto-scored scenarios that benchmark security agents against embodied systems. *In progress.* |
+| 🤖 | **[Knightfall](https://github.com/frontierknight/knightfall)** *(benchmark)* | ROS 2 security CTF range | A ROS 2 robotics-security CTF range for **both humans and AI agents** — reproducible, auto-scored scenarios that benchmark security agents against embodied systems. *In progress.* |
 
 ## Quick start (Kali)
 
