@@ -2,7 +2,7 @@
 
 # Frontier Knight Labs
 
-**Advancing autonomous agents for cyber offense, defense, and learning.**
+**Advancing autonomous agents for cyber offense, defense, and learning — securing digital and physical worlds.**
 
 </div>
 
