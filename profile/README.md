@@ -14,22 +14,22 @@ Frontier Knight Labs builds autonomous cybersecurity agents that **run real tool
 
 | | Agent | Role | What it does |
 |---|---|---|---|
-| 🔴 | **[Wraith](https://github.com/frontierknight/wraith)** | Red team · offense | 9-phase MITRE ATT&CK kill chain · 7 offensive tools · 447 attack workflows. Runs Nmap, sqlmap, BloodHound, Impacket, Sliver… |
-| 🔵 | **[Aegis](https://github.com/frontierknight/aegis)** | Blue team · defense | 8-phase IR + threat-hunting chain · 8 defensive tools · 370 defense workflows. Runs Volatility, YARA, Sigma, Zeek, Splunk… |
+| 🔴 | **[Crimson Knight](https://github.com/frontierknight/crimson)** | Red team · offense | 9-phase MITRE ATT&CK kill chain · 7 offensive tools · 447 attack workflows. Runs Nmap, sqlmap, BloodHound, Impacket, Sliver… |
+| 🔵 | **[Azure Knight](https://github.com/frontierknight/azure)** | Blue team · defense | 8-phase IR + threat-hunting chain · 8 defensive tools · 370 defense workflows. Runs Volatility, YARA, Sigma, Zeek, Splunk… |
 | 🧠 | *Learning* | RL post-training | Reinforcement-learning post-trained security models — *in progress.* |
 | 🤖 | **Knightfall** *(benchmark)* | ROS 2 security CTF range | A ROS 2 robotics-security CTF range for **both humans and AI agents** — reproducible, auto-scored scenarios that benchmark security agents against embodied systems. *In progress.* |
 
 ## Quick start (Kali)
 
 ```bash
-# Red team
-git clone https://github.com/frontierknight/wraith ~/wraith && cd ~/wraith && ./install.sh
+# Red team — Crimson Knight
+git clone https://github.com/frontierknight/crimson ~/crimson && cd ~/crimson && ./install.sh
 
-# Blue team
-git clone https://github.com/frontierknight/aegis ~/aegis && cd ~/aegis && ./install.sh
+# Blue team — Azure Knight
+git clone https://github.com/frontierknight/azure ~/azure && cd ~/azure && ./install.sh
 
 source ~/.zshrc
-wraith   # 🔴     aegis   # 🔵
+crimson  # 🔴     azure  # 🔵
 ```
 
 Needs [pi](https://pi.dev) (Node ≥ 22). Each agent installs in an isolated config and leaves plain `pi` untouched.
