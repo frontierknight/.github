@@ -8,7 +8,7 @@
 
 ---
 
-Frontier Knight Labs builds autonomous cybersecurity agents that **run real tools on real systems** — not chatbots that recite playbooks. Each agent runs on [pi](https://pi.dev), ships an offline library of vetted security workflows, and executes Kali-native tooling one phase at a time, under an explicit authorization gate.
+Frontier Knight Labs builds autonomous cybersecurity agents that **run real tools on real systems** — not chatbots that recite playbooks — and the **benchmarks to measure them**, across digital and physical (robotic / embodied) systems. Each agent runs on [pi](https://pi.dev), ships an offline library of vetted security workflows, and executes Kali-native tooling one phase at a time, under an explicit authorization gate.
 
 ## Products
 
@@ -17,6 +17,7 @@ Frontier Knight Labs builds autonomous cybersecurity agents that **run real tool
 | 🔴 | **[Wraith](https://github.com/frontierknight/wraith)** | Red team · offense | 9-phase MITRE ATT&CK kill chain · 7 offensive tools · 447 attack workflows. Runs Nmap, sqlmap, BloodHound, Impacket, Sliver… |
 | 🔵 | **[Aegis](https://github.com/frontierknight/aegis)** | Blue team · defense | 8-phase IR + threat-hunting chain · 8 defensive tools · 370 defense workflows. Runs Volatility, YARA, Sigma, Zeek, Splunk… |
 | 🧠 | *Learning* | RL post-training | Reinforcement-learning post-trained security models — *in progress.* |
+| 🤖 | **Embodied CTF** *(benchmark)* | Range · embodied-AI security | A ROS 2 / robotics security CTF range — reproducible, auto-scored scenarios that benchmark security agents against embodied systems. *In progress.* |
 
 ## Quick start (Kali)
 
